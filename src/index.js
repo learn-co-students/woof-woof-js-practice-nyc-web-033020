@@ -33,6 +33,10 @@ document.addEventListener('DOMContentLoaded', function(){
        if (e.target.localName == 'span'){
            const id = e.target.dataset.set
            fetch(`${url}/${id}`).then(res => res.json()).then(dog => loadDogInfo(dog))
+       } else if (e.target.innerHTML == 'Filter good dogs: ON'){
+         console.log(e.target)
+         e.target.innerHTML = 'Filter good dogs: OFF'
+         dogInfoDiv.innerHTML = ''
        } else if (e.target.innerHTML == "Good Dog!"){
            const dogId = e.target.parentElement.dataset.set
                 fetch(`${url}/${dogId}`,{
@@ -66,6 +70,10 @@ document.addEventListener('DOMContentLoaded', function(){
                     })
 
                 })
+            } else if (e.target.id == 'filter-div'){
+                       console.log(e.target)
+                        e.target.innerHTML = 'Filter good dogs: OFF'
+                        dogInfoDiv.remove()
             }
     })
     
