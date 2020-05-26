@@ -1,5 +1,5 @@
 // Mock Data
-//why didnt my mock data work
+//why didnt my mock data workk
 const pupsList ={
   "pups": [
     {
