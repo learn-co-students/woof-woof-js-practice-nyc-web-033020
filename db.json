@@ -33,20 +33,23 @@
     {
       "id": 6,
       "name": "Snooper Pooper",
-      "isGoodDog": false,
-      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_6.jpg"
+      "isGoodDog": true,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_6.jpg",
+      "isGood": false
     },
     {
       "id": 7,
       "name": "Puddles",
-      "isGoodDog": true,
-      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_7.jpg"
+      "isGoodDog": false,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_7.jpg",
+      "isGood": false
     },
     {
       "id": 8,
       "name": "Mittens",
-      "isGoodDog": true,
-      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg"
+      "isGoodDog": false,
+      "image": "https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg",
+      "isGood": "true"
     },
     {
       "id": 9,
